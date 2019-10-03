@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <string name="attraction_fun_places">Fun for Free</string>
+    <string name="attraction_historic">Historic</string>
+    <string name="attraction_food">Food and Drink</string>
+    <string name="attraction_franzbrötchen">Franzbrötchen</string>
+</resources>
