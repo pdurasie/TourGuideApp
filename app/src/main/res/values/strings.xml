@@ -5,4 +5,15 @@
     <string name="attraction_historic">Historic</string>
     <string name="attraction_nightlife">Nightlife</string>
     <string name="attraction_franzbrötchen">Franzbrötchen</string>
+
+    <!-- ******* Nightlife list -->
+    <string name="sunset_location">Sunset Billard</string>
+    <string name="sunset_address">Walddörferstraße 110\n22041 Hamburg</string>
+    <string name="sunset_desc">Cozy bar to hang out and play some billard at after work.</string>
+
+    <string name="apotheke_location">Oma\'s Apotheke</string>
+    <string name="apotheke_address">Schanzenstraße 87\n20357 Hamburg</string>
+    <string name="apotheke_desc">Amazing place to have a beer and get started for a long night
+        of partying.</string>
+
 </resources>

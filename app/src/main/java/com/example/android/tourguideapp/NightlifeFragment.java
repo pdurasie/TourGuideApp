@@ -30,9 +30,10 @@ public class NightlifeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_nightlife, container, false);
 
         ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Sunset Billard",
-                "Walddörferstraße 110\n22041 Hamburg",
-                "Play billard here"));
+        attractions.add(new Attraction(getString(R.string.sunset_location),
+                getString(R.string.sunset_address), getString(R.string.sunset_desc)));
+        attractions.add(new Attraction(getString(R.string.apotheke_location),
+                getString(R.string.apotheke_address), getString(R.string.apotheke_desc)));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 

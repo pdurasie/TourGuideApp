@@ -33,7 +33,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         ImageView locationImage = listItemView.findViewById(R.id.attraction_image_view);
         locationImage.setVisibility(View.GONE);
 
-        TextView locationName = listItemView.findViewById(R.id.location_name_text_view);
+        TextView locationName = listItemView.findViewById(R.id.location_text_view);
         locationName.setText(currentAttraction.getLocationName());
 
         TextView locationAddress = listItemView.findViewById(R.id.address_text_view);
