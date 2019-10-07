@@ -13,7 +13,21 @@
 
     <string name="apotheke_location">Oma\'s Apotheke</string>
     <string name="apotheke_address">Schanzenstraße 87\n20357 Hamburg</string>
-    <string name="apotheke_desc">Amazing place to have a beer and get started for a long night
+    <string name="apotheke_desc">Amazing place to have a beer at and get started for a long night
         of partying.</string>
+
+    <string name="klimperkiste_location">Klimperkiste</string>
+    <string name="klimperkiste_address">Esplanade 18\n20354 Hamburg</string>
+    <string name="klimperkiste_desc">Super charming, quaint pub for small groups.</string>
+
+    <string name="pony_location">Pony Bar</string>
+    <string name="pony_address">Allende-Platz 1\n20146 Hamburg</string>
+    <string name="pony_desc">No better place for enjoying live music
+        and hipster culture than here.</string>
+
+    <string name="shooters_location">Shooters</string>
+    <string name="shooters_address">Große Freiheit 14\n22767 Hamburg</string>
+    <string name="shooters_desc">A classic club at the famous Reeperbahn.
+        Always packed and vibrant with energy!</string>
 
 </resources>

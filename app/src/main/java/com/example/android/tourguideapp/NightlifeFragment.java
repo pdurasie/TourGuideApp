@@ -34,6 +34,12 @@ public class NightlifeFragment extends Fragment {
                 getString(R.string.sunset_address), getString(R.string.sunset_desc)));
         attractions.add(new Attraction(getString(R.string.apotheke_location),
                 getString(R.string.apotheke_address), getString(R.string.apotheke_desc)));
+        attractions.add(new Attraction(getString(R.string.klimperkiste_location),
+                getString(R.string.klimperkiste_address), getString(R.string.klimperkiste_desc)));
+        attractions.add(new Attraction(getString(R.string.pony_location),
+                getString(R.string.pony_address), getString(R.string.pony_desc)));
+        attractions.add(new Attraction(getString(R.string.shooters_location),
+                getString(R.string.shooters_address), getString(R.string.shooters_desc)));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 
