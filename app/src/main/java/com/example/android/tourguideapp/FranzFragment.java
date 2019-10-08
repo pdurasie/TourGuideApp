@@ -31,21 +31,16 @@ public class FranzFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_fun_for_free, container, false);
 
         ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction(getString(R.string.landungsbr_location),
-                getString(R.string.landungsbr_desc),
-                R.drawable.landungsbr_pic));
-        attractions.add(new Attraction(getString(R.string.planten_location),
-                getString(R.string.planten_desc),
-                R.drawable.planten_pic));
-        attractions.add(new Attraction(getString(R.string.elbstrand_location),
-                getString(R.string.elbstrand_desc),
-                R.drawable.elbstrand_pic));
-        attractions.add(new Attraction(getString(R.string.buecherhallen_location),
-                getString(R.string.buecherhallen_desc),
-                R.drawable.buecherhallen_pic));
-        attractions.add(new Attraction(getString(R.string.stadtpark_location),
-                getString(R.string.stadtpark_desc),
-                R.drawable.stadtpark_pic));
+        attractions.add(new Attraction(getString(R.string.schanzenbaecker_location),
+                getString(R.string.schanzenbaecker_rating), getString(R.string.schanzenbaecker_desc)));
+        attractions.add(new Attraction(getString(R.string.friends_location),
+                getString(R.string.friends_rating), getString(R.string.friends_desc)));
+        attractions.add(new Attraction(getString(R.string.junge_location),
+                getString(R.string.junge_rating), getString(R.string.junge_desc)));
+        attractions.add(new Attraction(getString(R.string.subway_location),
+                getString(R.string.subway_rating), getString(R.string.subway_desc)));
+        attractions.add(new Attraction(getString(R.string.penny_location),
+                getString(R.string.penny_rating), getString(R.string.penny_desc)));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
 

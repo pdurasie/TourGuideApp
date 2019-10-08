@@ -80,6 +80,28 @@
         (as they should be!) - quality can vary greatly though, where dry Franzbrötchen
         sometimes slip in.</string>
 
-    
+    <string name="friends_location">Franz for Friends</string>
+    <string name="friends_rating">1,6/5</string>
+    <string name="friends_desc">Prominent in the main station area, Franz for Friends offers
+        Franzbrötchen in a sizeable array of sorts - you could get ones with crumbles, chocolate,
+        fruit etc. But, as a matter of fact, you definitely should not!</string>
+
+    <string name="junge_location">Bäckerei Junge</string>
+    <string name="junge_rating">4/5</string>
+    <string name="junge_desc">The Lübecker bakery chain bets on more cinnamon, more sweetness
+        and a crispy outer dough than other bakeries. As with all bakery chains,
+        quality does depend on time of day.</string>
+
+    <string name="subway_location">Subway station kiosks</string>
+    <string name="subway_rating">2,3/5</string>
+    <string name="subway_desc">You\'ll see these everywhere for cheap prices if you buy multiple.
+        While it is obvious that Franzbrötchen from here will be rather dry and not fresh,
+        quantity for this price gives (very few) bonus points.</string>
+
+    <string name="penny_location">Penny discounter market</string>
+    <string name="penny_rating">2,5/5</string>
+    <string name="penny_desc">Yes, seriously. Penny sells these at cheap prices, and for a quick
+        solution for Franzbrötchen cravings, these definitely aren\'t too bad!
+        The visuals are dreadful though, most of the time.</string>
 
 </resources>

@@ -21,8 +21,8 @@ public class TourGuidePagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch(position){
             case 0: return new FunForFreeFragment();
-            case 1: return new HistoricFragment();
-            case 2: return new NightlifeFragment();
+            case 1: return new NightlifeFragment();
+            case 2: return new HistoricFragment();
             default: return new FranzFragment();
         }
     }
@@ -37,8 +37,8 @@ public class TourGuidePagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position){
             case 0: return mContext.getString(R.string.attraction_fun_places);
-            case 1: return mContext.getString(R.string.attraction_historic);
-            case 2: return mContext.getString(R.string.attraction_nightlife);
+            case 1: return mContext.getString(R.string.attraction_nightlife);
+            case 2: return mContext.getString(R.string.attraction_historic);
             default: return mContext.getString(R.string.attraction_franzbrötchen);
         }
     }
