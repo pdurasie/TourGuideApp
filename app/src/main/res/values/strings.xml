@@ -1,10 +1,34 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
 
-    <string name="attraction_fun_places">Fun for Free</string>
+    <string name="attraction_fun_places">Free Fun</string>
     <string name="attraction_historic">Historic</string>
     <string name="attraction_nightlife">Nightlife</string>
     <string name="attraction_franzbrötchen">Franzbrötchen</string>
+
+    <!-- Free Fun list -->
+
+    <string name="landungsbr_location">Landungsbrücken</string>
+    <string name="landungsbr_desc">Ideal place to enjoy the view on Hamburg\'s famous harbour.
+    Sit on the landing wall, have a cool drink and watch the sunset with friends!</string>
+
+    <string name="planten_location">Planten un Blomen</string>
+    <string name="planten_desc">Huge park with different themes, plenty of places to chill
+        and take a break from the city life.</string>
+
+    <string name="elbstrand_location">Elbstrand</string>
+    <string name="elbstrand_desc">Take off your shoes, feel the sand between your toes and
+        watch the ships enter Hamburg\'s harbour.
+        Pro tip: Take a walk at night with friends - it\'s a beautiful view!</string>
+
+    <string name="buecherhallen_location">Bücherhallen</string>
+    <string name="buecherhallen_desc">Gone are the days of boring libraries with dusty books
+        and strict librarians shushing you.
+        Bücherhallen have every form of modern entertainment for you to use and borrow. </string>
+
+    <string name="stadtpark_location">Stadtpark</string>
+    <string name="stadtpark_desc">Wide ranges of green areas, a lake to have a swim in
+        and playgrounds for your kids. Bonus: Watch the local Quidditch team train on Sundays!</string>
 
     <!-- ******* Nightlife list -->
     <string name="sunset_location">Sunset Billard</string>

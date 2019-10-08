@@ -45,7 +45,7 @@
                     tools:text="Sunset Billard" />
 
                 <View
-                    android:id="@+id/horizontal_line_view"
+                    android:id="@+id/divisor_line_view"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:background="@android:color/darker_gray" />

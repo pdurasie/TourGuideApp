@@ -1,6 +1,7 @@
 package com.example.android.tourguideapp;
 
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,15 +31,26 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         Attraction currentAttraction = getItem(position);
 
+        int imageId = currentAttraction.getImageResourceId();
         ImageView locationImage = listItemView.findViewById(R.id.attraction_image_view);
-        locationImage.setVisibility(View.GONE);
+        if (imageId != -1){
+            locationImage.setImageResource(imageId);
+        } else {
+            locationImage.setVisibility(View.GONE);
+        }
 
         TextView locationName = listItemView.findViewById(R.id.location_text_view);
         locationName.setText(currentAttraction.getLocationName());
 
         TextView locationAddress = listItemView.findViewById(R.id.address_text_view);
-        locationAddress.setText(currentAttraction.getAddress());
-
+        if (currentAttraction.getAddress() != null) {
+            locationAddress.setText(currentAttraction.getAddress());
+        } else{
+            //if there is no address (or rating), we don't need a divisor line
+            locationAddress.setVisibility(View.GONE);
+            View divisorLine = listItemView.findViewById(R.id.divisor_line_view);
+            divisorLine.setVisibility(View.GONE);
+        }
         TextView locationDesc = listItemView.findViewById(R.id.description_text_view);
         locationDesc.setText(currentAttraction.getDescription());
 

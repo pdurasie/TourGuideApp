@@ -12,6 +12,20 @@ public class Attraction {
         mAddress = address;
         mDescription = description;
     }
+    //This constructor also works for ratings instead of addresses
+    public Attraction(String locationName, String address, String description, int imageResourceId){
+        mLocationName = locationName;
+        mAddress = address;
+        mDescription = description;
+        mImageResourceId = imageResourceId;
+    }
+
+    public Attraction(String locationName, String description, int imageResourceId){
+        mLocationName = locationName;
+        mDescription = description;
+        mImageResourceId = imageResourceId;
+    }
+
 
     public String getLocationName(){return mLocationName;}
 
