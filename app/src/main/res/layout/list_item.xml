@@ -27,7 +27,7 @@
                 android:layout_below="@id/address_and_location_name_view"
                 android:layout_centerHorizontal="true"
                 android:textStyle="italic"
-                tools:text="Cozy bar to hang out and play some billard." />
+                tools:text="@string/apotheke_desc" />
 
 
             <LinearLayout
@@ -42,7 +42,7 @@
                     android:id="@+id/location_text_view"
                     android:textStyle="bold"
                     style="@style/address_and_location_in_list"
-                    tools:text="Sunset Billard" />
+                    tools:text="@string/apotheke_location" />
 
                 <View
                     android:id="@+id/divisor_line_view"
@@ -54,7 +54,7 @@
                     android:id="@+id/address_text_view"
                     android:textColor="#757575"
                     style="@style/address_and_location_in_list"
-                    tools:text="Walddörfer Straße 110\n 22041 Hamburg" />
+                    tools:text="@string/apotheke_address" />
             </LinearLayout>
 
         </RelativeLayout>

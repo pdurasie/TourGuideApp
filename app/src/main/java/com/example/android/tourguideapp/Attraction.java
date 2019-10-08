@@ -7,17 +7,12 @@ public class Attraction {
     private String mDescription;
     private int mImageResourceId = -1;
 
+    //This constructor also works with ratings instead of addresses
+    //For brevity's sake, there is only one constructor for both
     public Attraction(String locationName, String address, String description){
         mLocationName = locationName;
         mAddress = address;
         mDescription = description;
-    }
-    //This constructor also works for ratings instead of addresses
-    public Attraction(String locationName, String address, String description, int imageResourceId){
-        mLocationName = locationName;
-        mAddress = address;
-        mDescription = description;
-        mImageResourceId = imageResourceId;
     }
 
     public Attraction(String locationName, String description, int imageResourceId){
