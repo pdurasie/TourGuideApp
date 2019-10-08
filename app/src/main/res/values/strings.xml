@@ -30,6 +30,25 @@
     <string name="stadtpark_desc">Wide ranges of green areas, a lake to have a swim in
         and playgrounds for your kids. Bonus: Watch the local Quidditch team train on Sundays!</string>
 
+    <!-- ******Historic list -->
+    <string name="speicherstadt_location">Speicherstadt</string>
+    <string name="speicherstadt_desc">Literally "warehouse city" - Hamburg\'s Speicherstadt is the
+        world\'s largest warehouse complex with beautiful brick architecture.
+        There are plenty of activities to discover!</string>
+
+    <string name="rathaus_location">Rathaus (City Hall)</string>
+    <string name="rathaus_desc">After many revisions and rebuilds, the current City Hall is an
+        impressive sight to behold. Open to the public with optional guided tours!</string>
+
+    <string name="elbtunnel_location">Alter Elbtunnel</string>
+    <string name="elbtunnel_desc">Hailed as a technical sensation when it first opened a hundred
+        years ago, the St. Pauli Elbtunnel is still going strong as a place for
+        exhibitions and taking lovely strolls.</string>
+
+    <string name="michel_location">St. Michael\'s Church</string>
+    <string name="michel_desc">Belovedly called "Michel" by locals. Hamburg\'s most famous church
+        offers a unique view on the city on its viewing platform. Don\'t miss it!</string>
+
     <!-- ******* Nightlife list -->
     <string name="sunset_location">Sunset Billard</string>
     <string name="sunset_address">Walddörferstraße 110\n22041 Hamburg</string>
@@ -53,5 +72,14 @@
     <string name="shooters_address">Große Freiheit 14\n22767 Hamburg</string>
     <string name="shooters_desc">A classic club at the famous Reeperbahn.
         Always packed and vibrant with energy!</string>
+
+    <!-- ************ Franzbrötchen -->
+    <string name="schanzenbaecker_location">Schanzenbäcker</string>
+    <string name="schanzenbaecker_rating">4,2/5</string>
+    <string name="schanzenbaecker_desc">The Schanzenbäcker offers sweet, mushy Franzbrötchen
+        (as they should be!) - quality can vary greatly though, where dry Franzbrötchen
+        sometimes slip in.</string>
+
+    
 
 </resources>
